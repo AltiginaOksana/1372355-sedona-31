@@ -5,8 +5,123 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="#">
+          <img src="img/logo-index.svg" alt="Логотип сайта Седона">
+        </a>
+          <ul>
+            <li><a href="blank.html">Информация</a></li>
+            <li><a href="blank.html">Фото и видео</a></li>
+            <li><a href="blank.html">Карта штата</a></li>
+            <li><a href="catalog.html">Гостиницы</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Добро пожаловать в Седону</h1>
+      <section>
+        <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Коньон.</p>
+      </section>
+      <section>
+        <h2>Настоящий городок</h2>
+        <p>&ndash;№1&ndash;</p>
+        <p>Седона - не аттракцион для туристов, там течёт своя жизнь.</p>
+        <img src="img/sedona-panorama.jpg" width="800" height="256" alt="Панорама Седоны">
+      </section>
+      <section>
+        <h2>Преимущества</h2>
+        <ul>
+          <li>
+            <h3>Жильё</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+          <li>
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li>
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Там есть мост Дьявола!</h2>
+        <p>&ndash;№2&ndash;</p>
+        <p>Да, по нему можно пройти! Если, конечно, вы осмелитесь.</p>
+        <img src="img/devil-bridge.jpg" width="800" height="256" alt="Фотография моста Дьявола">
+      </section>
+      <section>
+        <ul>
+          <li>
+            <h2>Небольшая площадь</h2>
+            <p>&ndash;№3&ndash;</p>
+            <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li>
+            <h2>Красивая дорога</h2>
+            <p>&ndash;№4&ndash;</p>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li>
+            <h2>Мало туристов</h2>
+            <p>&ndash;№5&ndash;</p>
+            <p>Большинство едет в Гранд-Коньон и толпится там</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+         <!-- Здесь будет форма записи -->
+        <img src="" alt="Катрта">
+      </section>
+    </main>
+    <footer>
+      <section>
+        <h2>Как с нами связаться</h2>
+        <a href="blank.html">#visitsedona</a><br>
+        <a href="tel:+74956660166">+7(495)-666-01-66</a>
+      </section>
+      <section>
+        <h2>Давайте дружить!</h2>
+        <ul>
+          <li>
+            <a href="blank.html">Твиттер</a>
+          </li>
+          <li>
+            <a href="blank.html">Фэйсбук</a>
+          </li>
+          <li>
+            <a href="blank.html">YouTube</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <p>website by</p>
+        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="" alt="Логотип HTML Academy"></a>
+      </section>
+    </footer>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <section>
+      <h2>Поиск гостиницы в Седоне</h2>
+       <form action="https://echo.htmlacademy.ru" method="post">
+         <label for="date-arrival">Дата заезда:</label>
+         <input id="date-arrival" type="date" name="date-arrival" placeholder="24 апреля 2017">
 
+         <label for="date-departure">Дата выезда:</label>
+         <input id="date-departure" type="date" name="date-departure" placeholder="4 июля 2017">
+
+         <label for="adult">Взрослые:</label>
+         <input id="adult" type="number" name="adult" placeholder="2">
+
+         <label for="child">Дети:</label>
+         <input id="child" type="number" name="child" placeholder="0">
+         <button type="submit">Найти</button>
+       </form>
+       <!-- Здесь будет форма поиска -->
+    </section>
   </body>
 </html>
