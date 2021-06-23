@@ -1,0 +1,250 @@
+:root {
+    --basic-black: #000000;
+    --basic-white: #ffffff;
+    --basic-seagull: #81B3D2;
+    --basic-night-rider: #333333;
+    --basic-summer-sky: #23A9E1;
+    --basic-blue: #81B3D3;
+    --basic-brown: #491213;
+    --basic-grey: #766357;
+    --basic-grey-green: #766458;
+    --basic-orange: #DC6243;
+    --basic-whisper: #EEEEEE;
+    --basic-pale-grey: #F2F2F2;
+    --basic-light-orange: #F49774;
+    --basic-pink: #F4B1A4;
+}
+
+body {
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+    background-image: url("");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-navigation {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--basic-black);
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.user-navigation a:hover {
+    color: var(--basic-seagull);
+}
+
+.site-navigation a:focus,
+.user-navigation a:focus {
+    color: var(--basic-grey);
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+    color: #000000;
+    opacity: 0.3;
+}
+
+.headline {
+    text-align: center;
+}
+
+.headline h2 {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.headline p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.infobox-town,
+.infobox-bridge {
+    background-color: var(--basic-seagull);
+    color: var(--basic-white);
+}
+
+.infobox-town h2,
+.infobox-bridge h2 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.infobox-town p
+.infobox-bridge p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.advantages-list {
+    list-style: none;
+    text-align: center;
+}
+
+.features {
+    background-color: var(--basic-whisper);
+}
+
+.features-list {
+    list-style: none;
+    text-align: center;
+}
+
+.features-item h2 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.features-item p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.modal {
+    text-align: center;
+}
+
+.modal h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.modal p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.modal-close {
+    font: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--basic-white);
+    vertical-align: middle;
+    background-color: var(--basic-grey);
+    border: none;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.modal-close:hover {
+    background-color: #604E43;
+}
+
+.modal-close:active {
+    background-color: #503E33;
+    color: #847870;  
+}
+
+.main-footer {
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+}
+.contacts a {
+    color: var(--basic-black);
+    text-decoration: none;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.youtube-icon svg rect:hover,
+.fb-icon svg rect:hover,
+.tw-icon svg rect:hover {
+    fill: #669EC0;
+}
+
+.youtube-icon svg rect:active,
+.fb-icon svg rect:active,
+.tw-icon svg rect:active {
+    fill: #5496BD;
+}
+
+.youtube-icon svg path:active,
+.fb-icon svg path:active,
+.tw-icon svg path:active {
+    fill: #87B5D1;
+}
+
+.hotel-search {
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.search-form input[type="date"],
+.search-form input[type="number"] {
+    font: inherit;
+    color: var(--basic-black);
+    background-color: #F2F2F2;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.search-form input[type="date"]:hover,
+.search-form input[type="number"]:hover {
+    background-color: #EBEBEB;
+}
+
+.search-form input[type="date"]:focus,
+.search-form input[type="number"]:focus {
+    background-color: var(--basic-white);
+    border: 2px solid #E5E5E5;
+}
+
+.search-icon-date {
+    background-image: url(img/calendar.svg);
+    background-repeat: no-repeat;
+}
+
+.search-button {
+    background-color: #81B3D2;
+    color: var(--basic-white);
+    text-transform: uppercase;
+    border:none;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
