@@ -1,0 +1,16 @@
+.youtube-icon svg rect:hover,
+.fb-icon:hover,
+.tw-icon svg rect:hover {
+    fill: #669EC0;
+}
+
+.youtube-icon svg rect:active,
+.fb-icon svg rect:active,
+.tw-icon svg rect:active {
+    fill: #5496BD;
+}
+
+.youtube-icon svg path:active,
+.fb-icon svg path:active,
+.tw-icon svg path:active {
+    fill: #87B5D1;
